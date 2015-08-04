@@ -14,7 +14,7 @@
 }
 
 #albumImage {
-    width: 620px;
+    width: auto;
     height: 450px;
     margin-bottom: 10px;
 }
@@ -25,7 +25,7 @@
 }
 
 #thumbWrapper {
-    width: 620px;
+    width: auto;
     overflow: auto;
 }
 
