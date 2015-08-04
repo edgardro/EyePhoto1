@@ -65,7 +65,7 @@ padding-right: 0;*/
 #albumWrapper {
 
    width: auto;
-    height: 400px;
+    height: 600px;
 }
 
 #albumImage {
@@ -77,7 +77,7 @@ padding-right: 0;*/
 #albumImage img {
     display: block;
     /*margin: auto;*/
-    height: 400px;
+    height: 600px;
     width: 100%;
     position: relative;
     margin-left: auto;
@@ -92,8 +92,8 @@ padding-right: 0;*/
 }
 
 #thumbWrapper img {
-height: 70px;
-    width: 60px;
+height: 100px;
+    width: 70px;
 }
 
 #thumbList {
