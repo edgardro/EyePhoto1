@@ -65,19 +65,19 @@ padding-right: 0;*/
 #albumWrapper {
 
    width: auto;
-    height: 800px;
+    height: auto;
 }
 
 #albumImage {
     width: 100%;
-    height: 800px;
+    height: 600px;
     margin-bottom: 10px;
 }
 
 #albumImage img {
     display: block;
     /*margin: auto;*/
-    height: 800px;
+    height: 600px;
     width: 100%;
     position: relative;
     margin-left: auto;
@@ -105,8 +105,8 @@ height: 200px;
 #thumbList li {
     display: inline;
     list-style-type: none;
-    padding-left: 2px;
-    padding-right: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
     /*cursor: pointer;*/
 }
 
