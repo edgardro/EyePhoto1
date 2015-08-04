@@ -409,8 +409,8 @@ h2 {
   
   color: white;
   /*font: 40px   Helvetica, sans-serif, Verdana, Arial;*/
-  /*font: 30px blockfont;*/
-
+  font-size: 28px;
+  font-family: "Roboto Condensed";
   text-shadow: #000000 1px 1px 0;
 
 /*font-weight: bold;  */
@@ -432,9 +432,9 @@ h1 {
   
   color: white;
   /*font: 40px   Helvetica, sans-serif, Verdana, Arial;*/
-  font-size: 26px;
+  font-size: 22px;
   font-family: "Roboto Condensed";
-  text-shadow: #000000 1px 1px 0;
+  /*text-shadow: #000000 1px 1px 0;*/
 
 /*font-weight: bold;  */
 /*  margin: 1px auto auto 1px;
