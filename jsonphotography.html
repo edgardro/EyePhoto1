@@ -1,67 +1,47 @@
-<!doctype html>
-<html lang="en" ng-app="galleryApp" id="ng-app">
-<!-- <html ng-app="galleryApp"> -->
+<!DOCTYPE HTML>
+<html ng-app>
 <head>
-<meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,300,400italic,400,700italic,700" rel="stylesheet" type="text/css">
-         <link data-require="bootstrap-css@3.x" data-semver="2.3.2" rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+         <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,300,400italic,400,700italic,700" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="album.js"></script>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/album.css"> -->
+
     <link rel="stylesheet" href="style-pic.css" />
-
- 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.19/angular.min.js" data-semver="1.2.19" data-require="angular.js@*"></script>
-    <script data-require="angular-ui-bootstrap@0.11.0" data-semver="0.11.0" src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.11.0.min.js"></script>
-
-
-
-
-
-<title>Page Title</title>
-
-<!-- <script src="js/angular.js"></script> -->
-<!-- <script src="js/angular-ui-bootstrap-modal.js"></script> -->
-<script src="app.js"></script>
-<!-- <script src="app1.js"></script> -->
-<!-- <script src="script.js"></script> -->
-<!-- <script src="script.js"></script> -->
-<!-- <script src="apppic.js"></script> -->
-<!-- <script src="https://rawgit.com/dwmkerr/angular-modal-service/master/dst/angular-modal-service.js"></script> -->
-
+    
 </head>
-<!-- <div class="extendfull"> -->
- <div class="navnavbar-nav">
- <h1>Photography</h1>
-<a class="button back" onClick="javascript:history.go(-1);"></a>
 <body>
-
-
-<div ng-controller="GalleryController">
-
-<div class="jumbotron">
-<div class="contbanner2" >
-
-<!-- <div ng-repeat="image in galleryData" > -->
-
-<!-- <a ng-href="" ng-click="scrollTo(image,$jsonartnewphoto)"> -->
-
- <!-- <a ng-href="" ng-click="go('/jsonartnewphoto')"> -->
- <!-- <a ng-href="" ng-click="redirect()"> -->
-
- <!-- <a ng-href="jsonartnewphoto.html"> -->
-
-<img class="clickable" ng-repeat="image in galleryData" ng-src="{{IMAGE_LOCATION+image.image}}" ng-click="showImages($index)" />
-
-
-
-<!-- <img ng-src="{{IMAGE_LOCATION+image.image}}"/> -->
-
+ <div class="navnavbar-nav">
+ <h1>Eye Boys</h1>
+<a class="button back" onClick="javascript:history.go(-1);"></a>
 </div>
-   </div>
-</div>
-</div>
-<!-- </div> -->
 
+<div id="albumWrapper" ng-controller="AlbumCtrl">
+    <div id="header">
+        <h2>{{currentImage.description}}</h2>
+
+       <!--  <select ng-model="categories"
+                ng-options="category for category in imageCategories">
+            <option value="">all</option>
+        </select> -->
+    </div>
+
+    <div id="albumImage">
+        <img ng-src="{{currentImage.image}}" alt="{{currentImage.description}}">
+    </div>
+    <div id="thumbWrapper">
+        <ul id="thumbList">
+            <li ng-repeat="image in images | filter:categories" ng-click="setCurrentImage(image)">
+                <img ng-src="{{image.thumbnail}}" alt="{{image.description}}">
+            </li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>
