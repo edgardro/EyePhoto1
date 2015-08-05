@@ -23,4 +23,3 @@ function AlbumCtrl($scope, $http, $timeout) {
     // Defer fetch for 1 second to give everything an opportunity layout
     $timeout($scope.fetch, 1000);
 }
-
