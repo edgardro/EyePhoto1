@@ -1,5 +1,5 @@
 function AlbumCtrl($scope, $http, $timeout) {
-    $scope.url = 'images.json';
+    $scope.url = 'imagesfull.json';
     $scope.images = [];
     $scope.imageCategories = [];
     $scope.currentImage = {};
