@@ -99,15 +99,15 @@
     {"category" : "9",  "image" : "http://54.148.69.207/images/Travel/9.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/9.jpg", "description" : "Image 04 description"},
     {"category" : "9",  "image" : "http://54.148.69.207/images/Travel/10.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/10.jpg", "description" : "Image 05 description"},
 
-    {"category" : "10",   "image" : "http://54.148.69.207/images/Video/1.jpg", "thumbnail" : "http://54.148.69.207/images/Video/1.jpg", "description" : "Image 01 description"},
-    {"category" : "10",   "image" : "http://54.148.69.207/images/Video/2.jpg", "thumbnail" : "http://54.148.69.207/images/Video/2.jpg", "description" : "Image 02 description"},
-    {"category" : "10", "image" : "http://54.148.69.207/images/Video/3.jpg", "thumbnail" : "http://54.148.69.207/images/Video/3.jpg", "description" : "Image 03 description"},
-    {"category" : "10",  "image" : "http://54.148.69.207/images/Video/4.jpg", "thumbnail" : "http://54.148.69.207/images/Video/4.jpg", "description" : "Image 04 description"},
-    {"category" : "10",  "image" : "http://54.148.69.207/images/Video/5.jpg", "thumbnail" : "http://54.148.69.207/images/Video/5.jpg", "description" : "Image 05 description"},
-    {"category" : "10",   "image" : "http://54.148.69.207/images/Video/6.jpg", "thumbnail" : "http://54.148.69.207/images/Video/6.jpg", "description" : "Image 01 description"},
-    {"category" : "10",   "image" : "http://54.148.69.207/images/Video/7.jpg", "thumbnail" : "http://54.148.69.207/images/Video/7.jpg", "description" : "Image 02 description"},
-    {"category" : "10", "image" : "http://54.148.69.207/images/Video/8.jpg", "thumbnail" : "http://54.148.69.207/images/Video/8.jpg", "description" : "Image 03 description"},
-    {"category" : "10",  "image" : "http://54.148.69.207/images/Video/9.jpg", "thumbnail" : "http://54.148.69.207/images/Video/9.jpg", "description" : "Image 04 description"},
-    {"category" : "10",  "image" : "http://54.148.69.207/images/Video/10.jpg", "thumbnail" : "http://54.148.69.207/images/Video/10.jpg", "description" : "Image 05 description"}
+    {"category" : "10",   "image" : "http://54.148.69.207/images/Travel/1.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/1.jpg", "description" : "Image 01 description"},
+    {"category" : "10",   "image" : "http://54.148.69.207/images/Travel/2.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/2.jpg", "description" : "Image 02 description"},
+    {"category" : "10", "image" : "http://54.148.69.207/images/Travel/3.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/3.jpg", "description" : "Image 03 description"},
+    {"category" : "10",  "image" : "http://54.148.69.207/images/Travel/4.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/4.jpg", "description" : "Image 04 description"},
+    {"category" : "10",  "image" : "http://54.148.69.207/images/Travel/5.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/5.jpg", "description" : "Image 05 description"},
+    {"category" : "10",   "image" : "http://54.148.69.207/images/Travel/6.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/6.jpg", "description" : "Image 01 description"},
+    {"category" : "10",   "image" : "http://54.148.69.207/images/Travel/7.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/7.jpg", "description" : "Image 02 description"},
+    {"category" : "10", "image" : "http://54.148.69.207/images/Travel/8.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/8.jpg", "description" : "Image 03 description"},
+    {"category" : "10",  "image" : "http://54.148.69.207/images/Travel/9.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/9.jpg", "description" : "Image 04 description"},
+    {"category" : "10",  "image" : "http://54.148.69.207/images/Travel/10.jpg", "thumbnail" : "http://54.148.69.207/images/Travel/10.jpg", "description" : "Image 05 description"}
     
 ]

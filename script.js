@@ -32,6 +32,7 @@ myApp.config(function ($routeProvider, $locationProvider) {
      "photography":"photography.html",
      "boysart":"boysart.html",
      "girlsart":"girlsart.html",
+     "myart":"myart.html",
      "collectionart":"collectionart.html",
      "art":"art.html",
      "interior":"interior.html",
