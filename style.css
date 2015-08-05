@@ -140,7 +140,7 @@ h2 {
   /*background-color: gray;*/
   /*opacity: 2.0;*/
   margin-top: 0px;
-  padding: 2px;
+  padding: 0px;
   position: relative;
   
   width: 100%;
@@ -148,8 +148,8 @@ h2 {
 /*  background-color: rgba(230, 39, 87, 0.9);
 */ 
   /*background-color: #455667;*/
-  background-color: rgba(0, 0, 0, 0.2);
-  border-bottom: 1px solid #ffffff ;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-bottom: 2px solid #ffffff ;
 /*  margin: 1px auto auto 1px;
 */}
 

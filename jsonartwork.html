@@ -38,7 +38,11 @@
     </div>
     <div id="thumbWrapper">
         <ul id="thumbList">
-            <li ng-repeat="image in images | filter:categories" ng-click="setCurrentImage(image)">
+            <li ng-repeat="image in images | filter:{ category: 'ones' }:true" ng-click="setCurrentImage(image)">
+
+            <!-- filter:{category: 'expensive'} -->
+            <!-- filter:{category: 'expensive'} -->
+            <!-- filter:{ category: 'B'} -->
                 <img ng-src="{{image.thumbnail}}" alt="{{image.description}}">
             </li>
         </ul>

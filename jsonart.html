@@ -1,56 +1,47 @@
-<!doctype html>
-<html lang="en" ng-app="galleryApp" id="ng-app">
-<!-- <html ng-app="galleryApp"> -->
+<!DOCTYPE HTML>
+<html ng-app>
 <head>
-<meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
+
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no" />
         <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-        <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,300,400italic,400,700italic,700" rel="stylesheet" type="text/css">
-  <link data-require="bootstrap-css@3.2.0" data-semver="3.2.0" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
-<title>Page Title</title>
-<link rel="stylesheet" href="style-pic.css" />
-<script src="js/angular.js"></script>
-<script src="app.js"></script>
-<!-- <script src="script.js"></script> -->
-<!-- <script src="apppic.js"></script> -->
-<script>
-// function PostsCtrlAjax($scope, $http)
-// {
-// $http({method: 'POST', url: 'js/art.json'}).success(function(data)
-// {
-// $scope.posts = data; // response data 
-// });
-// }
-// </script>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" /> 
+         <link href="//fonts.googleapis.com/css?family=Roboto+Condensed:300italic,300,400italic,400,700italic,700" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.2/angular.min.js"></script>
+    <script src="http://documentcloud.github.com/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="album.js"></script>
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="css/album.css"> -->
+
+    <link rel="stylesheet" href="style-pic.css" />
+    
 </head>
- <div class="navnavbar-nav">
- <h2>Eye on art</h2>
-<a class="button back" onClick="javascript:history.go(-1);"></a>
 <body>
-
-
-<div ng-controller="GalleryController">
-
-<div class="jumbotron">
-<div class="contbanner2" >
-
-<div ng-repeat="image in galleryData" >
-
-<!-- <a ng-href="" ng-click="scrollTo(image,$jsonartnewphoto)"> -->
-
- <!-- <a ng-href="" ng-click="go('/jsonartnewphoto')"> -->
- <!-- <a ng-href="" ng-click="redirect()"> -->
-
- <a ng-href="jsonartnewphoto.html">
-
-<img ng-src="{{IMAGE_LOCATION+image.image}}"/>
-</a>
-</div>
-   </div>
-</div>
+ <div class="navnavbar-nav">
+ <h2>Eye on Art</h2>
+<a class="button back" onClick="javascript:history.go(-1);"></a>
 </div>
 
+<div id="albumWrapper" ng-controller="AlbumCtrl">
+    <div id="header">
+        <h2>{{currentImage.description}}</h2>
 
+       <!--  <select ng-model="categories"
+                ng-options="category for category in imageCategories">
+            <option value="">all</option>
+        </select> -->
+    </div>
+
+    <div id="albumImage">
+        <img ng-src="{{currentImage.image}}" alt="{{currentImage.description}}">
+    </div>
+    <div id="thumbWrapper">
+        <ul id="thumbList">
+            <li ng-repeat="image in images | filter:categories" ng-click="setCurrentImage(image)">
+                <img ng-src="{{image.thumbnail}}" alt="{{image.description}}">
+            </li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>
