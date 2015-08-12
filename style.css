@@ -192,18 +192,27 @@ height: auto;
 
   text-shadow: #000000 1px 1px 0;
 
+text-decoration: none;
 
 /*  border-top: 1px solid #000000 ;
 */  /*border-bottom: 1px solid #000000;*/
   /*border: 0px;*/
-
-
-
-
-
 }
 
+a {
+    color: inherit;
+}
+/*
+a .nounderline {
+   text-decoration: none
+ }*/
 
+a:hover .nounderline { text-decoration: none }
+
+a .nounderline:hover { text-decoration: none }
+
+/*.a
+{text-decoration: none;}*/
 
 .bg-success {
 /*background-color: gray;*/
