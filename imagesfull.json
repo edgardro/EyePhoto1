@@ -86,8 +86,6 @@
     {"category" : "9",   "image" : "http://54.148.69.207/imagesnew/Travel/7.jpg", "thumbnail" : "http://54.148.69.207/imagesnew/Travel/7.jpg", "description" : "Image 02 description"},
     {"category" : "9", "image" : "http://54.148.69.207/imagesnew/Travel/8.jpg", "thumbnail" : "http://54.148.69.207/imagesnew/Travel/8.jpg", "description" : "Image 03 description"},
     {"category" : "9",  "image" : "http://54.148.69.207/imagesnew/Travel/9.jpg", "thumbnail" : "http://54.148.69.207/imagesnew/Travel/9.jpg", "description" : "Image 04 description"},
-    {"category" : "9",  "image" : "http://54.148.69.207/imagesnew/Travel/10.jpg", "thumbnail" : "http://54.148.69.207/imagesnew/Travel/10.jpg", "description" : "Image 05 description"},
+    {"category" : "9",  "image" : "http://54.148.69.207/imagesnew/Travel/10.jpg", "thumbnail" : "http://54.148.69.207/imagesnew/Travel/10.jpg", "description" : "Image 05 description"}
 
-    
-    
 ]
