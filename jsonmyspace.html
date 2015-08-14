@@ -19,7 +19,7 @@
 <body>
  <div class="navnavbar-nav">
  <!-- <h1>Eye on Art Work</h1> -->
- <span><h2>My Space</h2></span> 
+<h2>My Space</h2>
 <a class="button back" onClick="javascript:history.go(-1);"></a>
 </div>
 
@@ -40,9 +40,7 @@
         <ul id="thumbList">
             <li ng-repeat="image in images | filter:{ category: '6' }:true" ng-click="setCurrentImage(image)">
 
-            <!-- filter:{category: 'expensive'} -->
-            <!-- filter:{category: 'expensive'} -->
-            <!-- filter:{ category: 'B'} -->
+        
                 <img ng-src="{{image.thumbnail}}" alt="{{image.description}}">
             </li>
         </ul>

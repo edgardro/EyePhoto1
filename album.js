@@ -1,5 +1,6 @@
 function AlbumCtrl($scope, $http, $timeout) {
     $scope.url = 'http://54.148.69.207/www/imagesfull.json';
+     // $scope.url = 'imagesfull.json';
     $scope.images = [];
     $scope.imageCategories = [];
     $scope.currentImage = {};
