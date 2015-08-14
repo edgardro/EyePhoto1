@@ -1,0 +1,31 @@
+<html ng-app="mod" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="angular.min.js"></script>
+    <script>
+        angular.module('mod', ['angularFileUpload']);
+ 
+        var x = ['$scope', '$upload', function ($scope, $upload) {
+            $scope.selectFile = function ($slctfl) {
+                for (var i = 0; i < $slctfl.length; i++) {
+                    var $fl = $slctfl[i];
+                    $upload.upload({
+                        url: 'my/upload/url',
+                        file: $fl,
+                        progress: function (e) { }
+                    }).then(function (data, status, headers, config) {
+                        console.log(data);
+                    });
+                }
+            }
+        }];
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div ng-controller="x">
+        <input type="file" ng-file-select="selectFile($slctfl)" multiple>
+    </div>
+    </form>
+</body>
+</html>

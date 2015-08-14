@@ -28,12 +28,12 @@ myApp.config(function ($routeProvider, $locationProvider) {
    $scope.template={
      
      
-     "artwork":"artwork.html",
+     "portraits":"portraits.html",
      "photography":"photography.html",
      "boysart":"boysart.html",
      "girlsart":"girlsart.html",
      "myart":"myart.html",
-     "collectionart":"collectionart.html",
+     "myspace":"myspace.html",
      "art":"art.html",
      "interior":"interior.html",
      "exhibitions":"exhibitions.html",
