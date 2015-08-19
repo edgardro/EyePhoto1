@@ -206,7 +206,9 @@ height: auto;
   margin-bottom: 50px;
   margin-left: 14px;
   margin-right: 2px;
-  color:rgba(192,192,192,1);
+  /*color:rgba(192,192,192,1);*/
+  /*color: #808080;*/
+  color: #c0c0c0;
   /*margin-bottom: 10px;*/
   /*color: white;*/
 /*  background-color: #5C5D5E;
@@ -216,7 +218,7 @@ height: auto;
 
 
   /*font: 40px   Helvetica, sans-serif, Verdana, Arial;*/
-  font-size: 20px;
+  font-size: 25px;
   /*font-family: "Roboto Condensed";*/
   font-family: "crimson";
   /*font-weight: bold;*/
