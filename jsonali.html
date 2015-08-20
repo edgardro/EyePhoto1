@@ -14,22 +14,40 @@
     <!-- <link rel="stylesheet" href="css/album.css"> -->
 
     <link rel="stylesheet" href="style-pic.css" />
+    <script src="script.js"></script>
     
 </head>
 <body>
  <div class="navnavbar-nav">
- <h1>My Art Work</h1>
+ <!-- <h1>Eye on Art Work</h1> -->
+<h2>Eye On Ali</h2>
 <a class="button back" onClick="javascript:history.go(-1);"></a>
+
 </div>
 
+<br/>
+
+ <div class="alert bg-warning" ng-include="template.girlsart"></div>
+
+<br/> 
+
+ <div class="alert bg-warning" ng-include="template.portraits"></div>
+
+<br/>
+
+ <div class="alert bg-warning" ng-include="template.myart"></div>
+
+<br/>
+
+ <div class="alert bg-warning" ng-include="template.ali"></div>
+
+
+<!-- 
 <div id="albumWrapper" ng-controller="AlbumCtrl">
     <div id="header">
         <h2>{{currentImage.description}}</h2>
 
-       <!--  <select ng-model="categories"
-                ng-options="category for category in imageCategories">
-            <option value="">all</option>
-        </select> -->
+    
     </div>
 
     <div id="albumImage">
@@ -37,11 +55,13 @@
     </div>
     <div id="thumbWrapper">
         <ul id="thumbList">
-            <li ng-repeat="image in images | filter:{ category: '1' }:true" ng-click="setCurrentImage(image)">
+            <li ng-repeat="image in images | filter:{ category: '6' }:true" ng-click="setCurrentImage(image)">
+
+        
                 <img ng-src="{{image.thumbnail}}" alt="{{image.description}}">
             </li>
         </ul>
     </div>
-</div>
+</div> -->
 </body>
 </html>

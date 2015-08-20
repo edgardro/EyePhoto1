@@ -1,5 +1,5 @@
 //create a module myApp
-var myApp = angular.module('myApp', ['ngRoute']);
+var myApp = angular.module('myAppali', ['ngRoute']);
  
 //Now Configure  our  routing
 myApp.config(function ($routeProvider, $locationProvider) {
@@ -7,8 +7,8 @@ myApp.config(function ($routeProvider, $locationProvider) {
     // set route for the index page
     .when('/',
     {
-        controller: 'RouteCtrl',
-        templateUrl: 'uirouter.html'
+        controller: 'RouteCtrlAli',
+        templateUrl: 'uirouterali.html'
     })
      // if not match with any route config then send to home page
  
@@ -22,24 +22,19 @@ myApp.config(function ($routeProvider, $locationProvider) {
 // create the controller and inject Angular's $scope
  
   // set for Route Controller
-  myApp.controller('RouteCtrl', function($scope) {
+  myApp.controller('RouteCtrlAli', function($scope) {
    
    /** create $scope.template **/
    $scope.template={
      
      
-     "portraits":"portraits.html",
-     "photography":"photography.html",
-     "boysart":"boysart.html",
-     "girlsart":"girlsart.html",
-     "myart":"myart.html",
-     "ali":"ali.html",
-     "art":"art.html",
-     "interior":"interior.html",
+     "home":"home.html",
      "exhibitions":"exhibitions.html",
      "travel":"travel.html",
-     "jsonartnewphoto":"jsonartnewphoto.html",
-     "video":"video.html"
+     "friends":"friends.html",
+     "collection":"collection.html",
+     "ali":"ali.html",
+     "looking":"looking.html"
 
      
    }
