@@ -198,11 +198,12 @@ height: auto;
   position: relative;
   
   width: 100%;
-  height: 40px;
+  height: 60px;
 /*  background-color: rgba(230, 39, 87, 0.9);
 */ 
   /*background-color: #455667;*/
-  background-color: rgba(0, 0, 0, 0.4);
+  /*background-color: rgba(0, 0, 0, 0.4);*/
+  background-color: rgba(51, 0, 102, 1);
   /*border-bottom: 1px solid #ffffff ;*/
 /*  margin: 1px auto auto 1px;
 */}
@@ -210,7 +211,7 @@ height: auto;
 .navnavbar-navali h2 {
 
     margin-top: 0px;
-  padding: 1px;
+  padding: 10px;
   position: relative;
   text-align: center;
   width: 100%;
@@ -221,8 +222,9 @@ height: auto;
   color: white;
   /*font: 40px   Helvetica, sans-serif, Verdana, Arial;*/
   font-size: 28px;
-  font-family: "Roboto Condensed";
-  text-shadow: #000000 1px 1px 0;
+  font-family: "crimson";
+ /* font-family: "Roboto Condensed";
+  text-shadow: #000000 1px 1px 0;*/
 }
 
 .button.back {
@@ -232,15 +234,20 @@ height: auto;
   /*padding: 5px;*/
   /*height: 40%;
   width: 9%;*/
-  height:30px;
-  width: 30px;
+  height: 28px;
+  width: 28px;
+  border-radius: 14px;
   /*border-left: 0px solid #bcbcbc;*/
   
   /*background-color: gray;*/
-  background-image:  url("../www/imagesUI/backfinal.png");
+ /* background-image:  url("../www/imagesUI/backfinal.png");
    left: 7px;
-  top: 8px;
+  top: 8px;*/
 
+background-color: rgba(255, 255, 255, 1);
+  background-image:  url("../www/imagesUI/arrowback2.png");
+   left: 7px;
+  top: 14px;
 
 /*
   background-image: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 1%,rgba(240,240,240,1) 100%);

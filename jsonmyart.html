@@ -18,20 +18,21 @@
 </head>
 <body>
  <div class="navnavbar-nav">
- <h1>My Art Work</h1>
+ <!-- <h1>My Art Work</h1> -->
+ <span><h2>My Art Work</h2></span> 
 <a class="button back" onClick="javascript:history.go(-1);"></a>
 </div>
 
 <div id="albumWrapper" ng-controller="AlbumCtrl">
-    <div id="header">
+   <!--  <div id="header">
         <h2>{{currentImage.description}}</h2>
 
-       <!--  <select ng-model="categories"
+        <select ng-model="categories"
                 ng-options="category for category in imageCategories">
             <option value="">all</option>
-        </select> -->
+        </select>
     </div>
-
+ -->
     <div id="albumImage">
         <img ng-src="{{currentImage.image}}" alt="{{currentImage.description}}">
     </div>
